@@ -1,12 +1,20 @@
-{
-  "version": 8,
-  "name": "Cycling Network Overlay",
-  "sources": {
-    "cycling": {
-      "type": "vector",
-      "url": "https://dominiks-macbook-pro.tail761943.ts.net/data/v3.json"
-    }
-  },
+"sources": {
+
+  "cycling": {
+
+    "type": "vector",
+
+    "tiles": [
+
+      "https://dominiks-macbook-pro.tail761943.ts.net/data/v3/{z}/{x}/{y}.pbf"
+
+    ],
+
+    "minzoom": 0,
+
+    "maxzoom": 14
+
+  }
   "layers": [
     {
       "id": "roads-red-minor-service-tertiary",
